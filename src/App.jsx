@@ -1,11 +1,12 @@
 import { HomePage } from "./pages/HomePage";
 import "./styles/index.css";
-function App() {
+
+export const App = () => {
   return (
     <div className="App">
       <HomePage />
     </div>
   );
-}
+};
 
 export default App;

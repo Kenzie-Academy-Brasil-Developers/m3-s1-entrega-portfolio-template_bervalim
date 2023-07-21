@@ -1,6 +1,7 @@
 import { username } from "../../data/user";
 import bannerImage from "../../assets/banner-img.png";
 import styles from "./style.module.css";
+
 export const BannerSection = () => {
   return (
     <section className="section-padding">

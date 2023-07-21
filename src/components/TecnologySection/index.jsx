@@ -1,6 +1,7 @@
 import { TecnologyCard } from "./TecnologyCard";
 import { technologies } from "../../data/technologies";
 import styles from "./style.module.css";
+
 export const TecnologySection = () => {
   return (
     <section className="section-padding">

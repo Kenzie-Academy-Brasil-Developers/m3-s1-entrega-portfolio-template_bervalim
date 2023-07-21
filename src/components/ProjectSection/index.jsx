@@ -1,6 +1,7 @@
 import { ProjectCard } from "./ProjectCard";
 import { projects } from "../../data/projects";
 import styles from "./style.module.css";
+
 export const ProjectSection = () => {
   return (
     <section className="section-padding">
