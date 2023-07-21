@@ -1,0 +1,27 @@
+.headerContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.25rem;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  gap: 3.75rem;
+}
+
+@media (min-width: 910px) {
+  .headerContent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .headerContent img {
+    width: 60px;
+    height: 18px;
+  }
+}

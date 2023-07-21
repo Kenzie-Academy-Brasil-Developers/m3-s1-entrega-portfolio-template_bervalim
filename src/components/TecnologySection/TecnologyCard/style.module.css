@@ -1,0 +1,6 @@
+.techItem {
+  padding: 8px 29px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}

@@ -1,0 +1,22 @@
+.techContent h2 {
+  margin-bottom: 1.25rem;
+}
+
+.techList {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.8rem;
+}
+
+.techList li {
+  border-radius: 1.5625rem;
+  border: 0.0625rem solid var(--grey-scale2);
+  width: 270px;
+  height: 70px;
+}
+
+@media (min-width: 910px) {
+  .techList {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

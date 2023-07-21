@@ -1,0 +1,16 @@
+.aboutMeContent p {
+  margin-top: 1.125rem;
+}
+
+@media (min-width: 1024px) {
+  .aboutMeContent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+  }
+
+  .aboutMeContent h2 {
+    width: 700px;
+  }
+}

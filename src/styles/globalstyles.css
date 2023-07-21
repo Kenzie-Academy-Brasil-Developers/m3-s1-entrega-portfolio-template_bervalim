@@ -1,0 +1,12 @@
+:root {
+  --primary-color: #6880ff;
+  --primary-color-hover: #7c91ff;
+  --grey-scale1: #000000;
+  --grey-scale2: #ffffff;
+  --font-primary: "Inter", sans-serif;
+  --font-secondary: "Poppins", sans-serif;
+}
+
+body {
+  background-color: var(--grey-scale1);
+}

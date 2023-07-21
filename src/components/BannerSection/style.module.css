@@ -1,0 +1,24 @@
+.bannerContent p {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.bannerContent button {
+  margin-bottom: 80px;
+}
+
+@media (min-width: 1024px) {
+  .bannerInfo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 161px;
+  }
+
+  .bannerContent h1 {
+    width: 300px;
+  }
+  .bannerInfo img {
+    margin-bottom: 80px;
+  }
+}

@@ -1,0 +1,10 @@
+.container {
+  width: 100%;
+  max-width: 950px;
+  margin: 0 auto;
+  padding: 1.5rem;
+}
+
+.section-padding {
+  padding: clamp(0.625rem, 5vw, 1.875rem);
+}
