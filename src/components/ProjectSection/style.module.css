@@ -11,8 +11,7 @@
 .projectList li {
   border-radius: 1.5625rem;
   border: 1px solid var(--grey-scale2);
-  width: 285px;
-  height: 183px;
+  /* height: 183px; */
 }
 
 @media (min-width: 910px) {
@@ -22,7 +21,6 @@
   }
 
   .projectList li {
-    width: 439px;
     height: 183px;
   }
 }
