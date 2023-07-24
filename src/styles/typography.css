@@ -22,6 +22,7 @@
   font-weight: 400;
   color: var(--grey-scale2);
   line-height: 1.8;
+  font-family: var(--font-primary);
 }
 
 .anchor {
