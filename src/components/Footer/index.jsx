@@ -13,6 +13,7 @@ export const Footer = () => {
             <h2 className="title md">Contato</h2>
             <div className={styles.imageContent}>
               <img src={whatsappIcon} alt="whatsappIcon" />
+              <p>x</p>
               <img src={linkedinIcon} alt="linkedinIcon" />
               <img src={githubIcon} alt="githubIcon" />
             </div>
