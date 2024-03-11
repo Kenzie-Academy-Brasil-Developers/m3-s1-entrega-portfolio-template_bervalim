@@ -15,6 +15,8 @@ export const ProjectSection = () => {
                   key={project.id}
                   name={project.name}
                   description={project.description}
+                  applicationLink={project.applicationLink}
+                  repositoryLink={project.repositoryLink}
                 />
               );
             })}

@@ -12,9 +12,15 @@ export const Footer = () => {
           <div className={styles.flexbox}>
             <h2 className="title md">Contato</h2>
             <div className={styles.imageContent}>
-              <img src={whatsappIcon} alt="whatsappIcon" />
-              <img src={linkedinIcon} alt="linkedinIcon" />
-              <img src={githubIcon} alt="githubIcon" />
+              <a href="https://wa.me/41984969334">
+                <img src={whatsappIcon} alt="whatsappIcon" />
+              </a>
+              <a href="https://www.linkedin.com/in/bernardo-valim/">
+                <img src={linkedinIcon} alt="linkedinIcon" />
+              </a>
+              <a href="https://github.com/bervalim">
+                <img src={githubIcon} alt="githubIcon" />
+              </a>
             </div>
           </div>
           <p className="paragraph">Todos os direitos reservados - {user}</p>

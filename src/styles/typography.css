@@ -14,11 +14,11 @@
 }
 
 .title.sm {
-  font-size: 1.375rem;
+  font-size: clamp(0.7rem, 4vw, 1.1rem);
 }
 
 .paragraph {
-  font-size: 1rem;
+  font-size: clamp(0.5rem, 4vw, 1rem);
   font-weight: 400;
   color: var(--grey-scale2);
   line-height: 1.8;
