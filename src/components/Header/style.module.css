@@ -12,6 +12,12 @@
   gap: 3.75rem;
 }
 
+.iconCountry > img {
+  width: 100%;
+  max-width: 20px;
+  cursor: pointer;
+}
+
 @media (min-width: 910px) {
   .headerContent {
     display: flex;

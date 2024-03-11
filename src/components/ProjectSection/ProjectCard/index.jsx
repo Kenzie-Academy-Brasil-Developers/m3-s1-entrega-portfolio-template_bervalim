@@ -1,12 +1,16 @@
+import { useTranslation } from "react-i18next";
 import gitIcon from "../../../assets/git-icon.png";
 import styles from "./style.module.css";
 
 export const ProjectCard = ({
   name,
-  description,
+  descriptionKey,
   applicationLink,
   repositoryLink,
 }) => {
+  const { t } = useTranslation();
+  const description = t(descriptionKey);
+
   return (
     <li className={styles.projectItem}>
       <div className={styles.projectContent}>
