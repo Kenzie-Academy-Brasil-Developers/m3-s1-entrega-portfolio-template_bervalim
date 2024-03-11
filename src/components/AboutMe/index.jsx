@@ -2,7 +2,7 @@ import styles from "./style.module.css";
 
 export const AboutMe = () => {
   return (
-    <section className="section-padding">
+    <section className="section-padding" id="AboutMe">
       <div className="container">
         <div className={styles.aboutMeContent}>
           <h2 className="title md">Sobre mim</h2>

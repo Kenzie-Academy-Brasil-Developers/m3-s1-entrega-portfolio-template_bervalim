@@ -1,5 +1,5 @@
 import { username } from "../../data/user";
-import bannerImage from "../../assets/banner-img.png";
+import profileImage from "../../assets/profileImage.jpg";
 import styles from "./style.module.css";
 
 export const BannerSection = () => {
@@ -15,7 +15,7 @@ export const BannerSection = () => {
             </p>
             <button className="btn">Saiba mais</button>
           </div>
-          <img src={bannerImage} alt="BannerImage"></img>
+          <img src={profileImage} alt="ProfileImage"></img>
         </div>
       </div>
     </section>

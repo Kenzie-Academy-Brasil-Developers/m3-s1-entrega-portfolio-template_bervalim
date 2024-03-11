@@ -7,6 +7,11 @@
   margin-bottom: 80px;
 }
 
+.bannerInfo > img {
+  max-width: 320px;
+  width: 100%;
+  border-radius: 400px;
+}
 @media (min-width: 1024px) {
   .bannerInfo {
     display: flex;

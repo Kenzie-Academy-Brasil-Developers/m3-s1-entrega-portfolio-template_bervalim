@@ -8,17 +8,19 @@ export const Header = () => {
         <div className={styles.headerContent}>
           <img src={portfolio} alt="Logo Portfólio"></img>
           <div className={styles.links}>
-            <a href="#" className="nav">
+            <a href="#AboutMe" className="nav">
               Sobre
             </a>
-            <a href="#" className="nav">
+            <a href="#Stack" className="nav">
               Stack
             </a>
-            <a href="#" className="nav">
+            <a href="#Projects" className="nav">
               Projetos
             </a>
           </div>
-          <button className="btn">Contato</button>
+          <a href="#Contact">
+            <button className="btn">Contato</button>
+          </a>
         </div>
       </div>
     </header>

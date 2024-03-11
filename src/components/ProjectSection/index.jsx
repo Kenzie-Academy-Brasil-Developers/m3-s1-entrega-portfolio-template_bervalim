@@ -4,7 +4,7 @@ import styles from "./style.module.css";
 
 export const ProjectSection = () => {
   return (
-    <section className="section-padding">
+    <section className="section-padding" id="Projects">
       <div className="container">
         <div className={styles.projectContent}>
           <h2 className="title md">Projetos</h2>

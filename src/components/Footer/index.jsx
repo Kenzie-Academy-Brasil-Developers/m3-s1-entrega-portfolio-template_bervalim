@@ -1,12 +1,12 @@
 import { user } from "../../data/user";
-import whatsappIcon from "../../assets/whatsapp-icon.png";
-import linkedinIcon from "../../assets/linkedin-icon.png";
-import githubIcon from "../../assets/github-icon.png";
+import whatsappIcon from "../../assets/whatsappIcon.png";
+import linkedinIcon from "../../assets/linkedinIcon.png";
+import githubIcon from "../../assets/githubIcon.png";
 import styles from "./style.module.css";
 
 export const Footer = () => {
   return (
-    <footer className={styles.footer}>
+    <footer className={styles.footer} id="Contact">
       <div className="container">
         <div className={styles.footerContent}>
           <div className={styles.flexbox}>
