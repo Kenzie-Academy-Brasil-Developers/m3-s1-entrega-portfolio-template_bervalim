@@ -4,7 +4,7 @@ import { technologies } from "../../data/technologies";
 import styles from "./style.module.css";
 import { useTranslation } from "react-i18next";
 
-export const TecnologySection = ({ children }) => {
+export const TecnologySection = () => {
   const { t } = useTranslation();
   const [isHovered, setIsHovered] = useState(false);
 

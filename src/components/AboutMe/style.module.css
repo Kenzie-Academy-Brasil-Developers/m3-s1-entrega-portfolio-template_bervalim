@@ -2,15 +2,15 @@
   margin-top: 0.7rem;
 }
 
-.aboutMeContent {
+/* .aboutMeContent {
   opacity: 0;
   transform: translateX(-100%);
-}
+} */
 
-.visible {
+/* .visible {
   opacity: 1;
   transform: translateX(0%);
-}
+} */
 
 @media (min-width: 1024px) {
   .aboutMeContent {
@@ -18,7 +18,7 @@
     align-items: center;
     justify-content: center;
     gap: 60px;
-    animation: aboutAnimation 0.5s, rotateAnimation 2s ease-in-out;
+    /* animation: aboutAnimation 0.5s, rotateAnimation 2s ease-in-out; */
   }
 
   .aboutMeContent > p {
@@ -27,7 +27,7 @@
   }
 }
 
-@keyframes aboutAnimation {
+/* @keyframes aboutAnimation {
   0% {
     transform: translateX(-100%);
     opacity: 0;
@@ -51,4 +51,4 @@
   100% {
     transform: rotateY(360deg);
   }
-}
+} */

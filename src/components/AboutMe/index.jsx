@@ -1,31 +1,44 @@
-import { useTranslation } from "react-i18next";
+import { useState, useEffect } from "react";
+import { useSpring, animated } from "react-spring";
 import styles from "./style.module.css";
-import { useEffect, useState } from "react";
-import { useInView } from "react-intersection-observer";
+import { useTranslation } from "react-i18next";
 
 export const AboutMe = () => {
   const { t } = useTranslation();
   const [isVisible, setIsVisible] = useState(false);
-  const { ref, inView } = useInView({ threshold: 0.1 });
+
+  const contentAnimation = useSpring({
+    opacity: isVisible ? 1 : 0,
+    transform: isVisible ? "translateX(0%)" : "translateX(-100%)",
+    config: { duration: 1200 },
+  });
 
   useEffect(() => {
-    if (inView) {
-      setIsVisible(true);
-    }
-  }, [inView]);
+    const handleScroll = () => {
+      const element = document.getElementById("AboutMe");
+      if (element) {
+        const rect = element.getBoundingClientRect();
+        const isVisible = rect.top < window.innerHeight && rect.bottom >= 0;
+        setIsVisible(isVisible);
+      }
+    };
+    handleScroll();
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
 
   return (
     <section className="section-padding" id="AboutMe">
       <div className="container">
-        <div
-          ref={ref}
-          className={`${styles.aboutMeContent} ${
-            isVisible ? styles.visible : ""
-          }`}
+        <animated.div
+          className={`${styles.aboutMeContent}`}
+          style={contentAnimation}
         >
           <h2 className="title md">{t("SobreMim")}</h2>
           <p className="paragraph">{t("QuemSou")}</p>
-        </div>
+        </animated.div>
       </div>
     </section>
   );
