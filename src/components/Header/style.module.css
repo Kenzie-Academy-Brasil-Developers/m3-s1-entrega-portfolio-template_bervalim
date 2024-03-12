@@ -12,9 +12,9 @@
   gap: 3.75rem;
 }
 
-.iconCountry > img {
+.links > img {
   width: 100%;
-  max-width: 20px;
+  max-width: 21px;
   cursor: pointer;
 }
 

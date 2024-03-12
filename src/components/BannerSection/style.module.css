@@ -8,9 +8,9 @@
 }
 
 .bannerInfo > img {
-  max-width: 320px;
+  max-width: 360px;
   width: 100%;
-  border-radius: 400px;
+  border-radius: 255px;
 }
 @media (min-width: 1024px) {
   .bannerInfo {

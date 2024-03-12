@@ -1,5 +1,5 @@
 import { username } from "../../data/user";
-import profileImage from "../../assets/profileImage.jpg";
+import profileImage from "../../assets/profileImg.jpg";
 import styles from "./style.module.css";
 import Typewriter from "typewriter-effect";
 import { useTranslation } from "react-i18next";

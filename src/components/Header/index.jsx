@@ -16,13 +16,12 @@ export const Header = () => {
       <div className="container">
         <div className={styles.headerContent}>
           <img src={portfolio} alt="Logo Portfólio"></img>
-          <div className={styles.iconCountry}>
+          <div className={styles.iconCountry}></div>
+          <div className={styles.links}>
             <img
               onClick={toggleLanguage}
               src={currentLanguage === "en" ? brazilIcon : euaIcon}
             />
-          </div>
-          <div className={styles.links}>
             <a href="#AboutMe" className="nav">
               {t("Sobre")}
             </a>
