@@ -16,7 +16,7 @@ export const Header = () => {
     <header className={styles.header}>
       <div className="container">
         <div className={styles.headerContent}>
-          <img src={portfolio} alt="Logo B"></img>
+          <p className={styles.Logo}>B</p>
           <img
             className={styles.Nation}
             onClick={toggleLanguage}

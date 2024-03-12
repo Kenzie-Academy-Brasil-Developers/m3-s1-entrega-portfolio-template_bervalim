@@ -5,6 +5,14 @@
   align-items: center;
   gap: 1.25rem;
 }
+.Logo {
+  font-family: var(--font-alternative);
+  font-weight: 700;
+  font-size: clamp(2.2rem, 3vw, 4rem);
+  font-style: italic;
+  line-height: 28.6px;
+  color: var(--primary-color);
+}
 
 .header {
   width: 100%;
@@ -27,7 +35,6 @@
 
 .links > a:hover {
   text-decoration: underline;
-  text-decoration-color: var(--primary-color);
 }
 
 @media (min-width: 910px) {

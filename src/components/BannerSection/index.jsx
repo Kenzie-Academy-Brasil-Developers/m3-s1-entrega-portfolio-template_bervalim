@@ -19,7 +19,7 @@ export const BannerSection = () => {
                   strings: [t("Apresentacao")],
                   autoStart: true,
                   loop: true,
-                  delay: 10,
+                  delay: 2,
                 }}
               />
             </p>
