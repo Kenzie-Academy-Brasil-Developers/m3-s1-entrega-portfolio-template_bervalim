@@ -1,4 +1,5 @@
 import portfolio from "../../assets/portfolio.png";
+import Logo from "../../assets/logoB.png";
 import styles from "./style.module.css";
 import { useTranslation } from "react-i18next";
 import euaIcon from "../../assets/euaIcon.png";
@@ -12,16 +13,17 @@ export const Header = () => {
   const { currentLanguage, toggleLanguage } = useContext(LanguageContext);
 
   return (
-    <header>
+    <header className={styles.header}>
       <div className="container">
         <div className={styles.headerContent}>
-          <img src={portfolio} alt="Logo Portfólio"></img>
+          <img src={portfolio} alt="Logo B"></img>
+          <img
+            className={styles.Nation}
+            onClick={toggleLanguage}
+            src={currentLanguage === "en" ? brazilIcon : euaIcon}
+          />
           <div className={styles.iconCountry}></div>
           <div className={styles.links}>
-            <img
-              onClick={toggleLanguage}
-              src={currentLanguage === "en" ? brazilIcon : euaIcon}
-            />
             <a href="#AboutMe" className="nav">
               {t("Sobre")}
             </a>
