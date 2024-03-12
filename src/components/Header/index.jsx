@@ -6,6 +6,7 @@ import euaIcon from "../../assets/euaIcon.png";
 import brazilIcon from "../../assets/iconBrazil.png";
 import { useContext, useState } from "react";
 import { LanguageContext } from "../providers/LanguageContext";
+import { DarkMode } from "../DarkMode";
 
 export const Header = () => {
   const { t } = useTranslation();
@@ -22,6 +23,7 @@ export const Header = () => {
             onClick={toggleLanguage}
             src={currentLanguage === "en" ? brazilIcon : euaIcon}
           />
+          <DarkMode />
           <div className={styles.iconCountry}></div>
           <div className={styles.links}>
             <a href="#AboutMe" className="nav">
