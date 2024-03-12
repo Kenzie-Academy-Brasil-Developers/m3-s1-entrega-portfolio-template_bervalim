@@ -5,6 +5,9 @@
   align-items: center;
   gap: 1.25rem;
 }
+.header {
+  border-bottom: 3px solid var(--primary-color);
+}
 .Logo {
   font-family: var(--font-alternative);
   font-weight: 700;

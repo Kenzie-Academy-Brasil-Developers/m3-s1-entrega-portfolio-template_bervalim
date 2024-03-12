@@ -12,9 +12,17 @@
   width: 100%;
   border-radius: 255px;
 }
-@media (min-width: 1024px) {
+.bannerInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (min-width: 830px) {
   .bannerInfo {
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
     gap: 161px;

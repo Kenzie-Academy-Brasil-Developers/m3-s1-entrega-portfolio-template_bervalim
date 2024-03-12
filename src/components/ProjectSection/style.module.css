@@ -9,10 +9,10 @@
   justify-content: center;
   gap: 1.8rem;
 }
-@media (min-width: 900px) {
+@media (min-width: 500px) {
   .projectList {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;

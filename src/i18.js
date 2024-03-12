@@ -12,18 +12,21 @@ const resources = {
       Apresentacao:
         "Um desenvolvedor full stack e entusiasta por tecnologia...Conheça os meus projetos abaixo:",
       SobreMim: "Sobre mim",
-      SaibaMais: "Saiba mais",
+      SaibaMais: "Saiba Mais",
       QuemSou:
         "Interessado por tecnologia desde pequeno, atualmente estou em transição de carreira para o desenvolvimento de software . Acredito que a tecnologia tem o poder de transformar o mundo, trazendo acessibilidade, disrupção e evolução para todos, dessa forma fico entusiasmado em fazer parte dessa transformação. Possuo experiência na construção de projetos full stack e familiaridade com conceitos de reatividade, autenticação, autorização, construção de documentação de APIs com swagger, e desenvolvimento de aplicações em linguagem single-thread, Vivências em utilização de Metodologias ágeis, como dailies ,1:1 e sprints",
-      controleEstoque: "Controle de estoque",
+      controleEstoque: "Controle de estoque de e-commerce",
       cadastroClient: "Cadastro de clientes/contatos",
       cadastroDevs: "Cadastro de desenvolvedores/tecnologia",
       restaurantApi: "Api para reservas em restaurantes",
       direitos: "Todos os direitos reservados",
-      project1Description: "Controle de estoque",
-      project2Description: "Cadastro de clientes/contatos",
+      project1Description: "Controle de estoque de e-commerce",
+      project2Description: "Aplicação de cadastro de clientes/contatos",
       project3Description: "API para reservas em restaurantes",
-      project4Description: "Cadastro de desenvolvedores/tecnologia",
+      project4Description:
+        "Aplicação de cadastro de desenvolvedores/tecnologia",
+      Aplicacao: "Aplicação",
+      Repositorio: "Repositório",
     },
   },
   en: {
@@ -48,6 +51,8 @@ const resources = {
       project2Description: "Customer/contact registration",
       project3Description: "API for restaurant reservations",
       project4Description: "Developer/technology registration",
+      Aplicacao: "Application",
+      Repositorio: "Repository",
     },
   },
 };
