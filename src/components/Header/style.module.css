@@ -14,10 +14,6 @@
   color: var(--primary-color);
 }
 
-.header {
-  width: 100%;
-  max-width: 1100px;
-}
 .Nation {
   width: 100%;
   max-width: 23px;
