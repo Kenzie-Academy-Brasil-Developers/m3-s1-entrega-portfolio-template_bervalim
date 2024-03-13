@@ -22,11 +22,6 @@
   max-width: 23px;
   cursor: pointer;
 }
-.links {
-  display: flex;
-  flex-direction: row;
-  gap: 3.75rem;
-}
 
 .links > a {
   color: var(--grey-scale2);
@@ -34,6 +29,46 @@
 
 .links > a:hover {
   text-decoration: underline;
+}
+
+.hamburger {
+  display: block;
+  color: var(--grey-scale2);
+}
+
+.links {
+  display: none;
+}
+
+.menu {
+  display: block;
+}
+
+.mobileLinks {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  justify-content: space-around;
+}
+
+.hamburguerComponent {
+  background-color: var(--grey-scale2);
+}
+
+@media (min-width: 800px) {
+  .links {
+    display: flex;
+    flex-direction: row;
+    gap: 3.75rem;
+  }
+
+  .hamburger {
+    display: none;
+  }
+
+  .menu {
+    display: none;
+  }
 }
 
 @media (min-width: 910px) {

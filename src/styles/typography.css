@@ -39,7 +39,7 @@
 }
 .nav {
   font-weight: 600;
-  font-size: clamp(0.4rem, 3vw, 0.8rem);
+  font-size: 0.8rem;
   font-family: var(--font-primary);
   color: var(--grey-scale2);
   line-height: 1.0588rem;
