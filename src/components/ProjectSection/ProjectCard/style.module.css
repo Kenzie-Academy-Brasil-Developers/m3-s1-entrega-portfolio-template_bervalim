@@ -1,20 +1,23 @@
 .projectItem {
-  padding: 0.5rem 1.8125rem;
-  position: relative;
-}
-
-.projectItem img {
-  position: absolute;
-  top: 0.6875rem;
-  right: 0.8125rem;
+  width: 100%;
+  max-width: 1200px;
+  padding: 1rem 1.8rem;
 }
 
 .projectContent {
-  width: 150px;
   margin-top: 10px;
 }
 
 .projectContent p {
   margin-top: 15px;
   margin-bottom: 20px;
+  width: 100%;
+  max-width: 600px;
+}
+
+.anchors {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
 }

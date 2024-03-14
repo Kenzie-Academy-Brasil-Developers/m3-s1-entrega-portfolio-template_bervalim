@@ -1,19 +1,31 @@
 import { username } from "../../data/user";
-import bannerImage from "../../assets/banner-img.png";
+import profileImage from "../../assets/profileImg.jpg";
 import styles from "./style.module.css";
+import Typewriter from "typewriter-effect";
+import { useTranslation } from "react-i18next";
 
 export const BannerSection = () => {
+  const { t } = useTranslation();
   return (
     <section className="section-padding">
       <div className="container">
         <div className={styles.bannerInfo}>
           <div className={styles.bannerContent}>
             <span className="username">{username}</span>
-            <h1 className="title lg">Bem vindo ao meu portfólio</h1>
-            <p className="paragraph ">Uma frase interessante sobre mim</p>
-            <button className="btn">Saiba mais</button>
+            <h1 className="title lg">{t("BemVindo")}</h1>
+            <p className="paragraph ">
+              <Typewriter
+                options={{
+                  strings: [t("Apresentacao")],
+                  autoStart: true,
+                  loop: true,
+                  delay: 2,
+                }}
+              />
+            </p>
+            <button className="btn">{t("SaibaMais")}</button>
           </div>
-          <img src={bannerImage} alt="BannerImage"></img>
+          <img src={profileImage} alt="ProfileImage"></img>
         </div>
       </div>
     </section>

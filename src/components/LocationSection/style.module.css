@@ -1,0 +1,9 @@
+.map {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.map_title > h2 {
+  margin-bottom: 18px;
+}
