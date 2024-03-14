@@ -31,6 +31,7 @@ const resources = {
 
       Aplicacao: "Aplicação",
       Repositorio: "Repositório",
+      Local: "Onde Moro ?",
     },
   },
   en: {
@@ -61,6 +62,7 @@ const resources = {
         "With this application, I aimed to develop a dashboard for developers with registration and login features. In this dashboard, it was possible for the developer to register, edit and delete their technologies.",
       Aplicacao: "Application",
       Repositorio: "Repository",
+      Local: "Where do I live ?",
     },
   },
 };
